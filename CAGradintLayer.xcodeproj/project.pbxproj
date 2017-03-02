@@ -13,6 +13,8 @@
 		3E16A04E1E4AAC4400A5A525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E16A04C1E4AAC4400A5A525 /* Main.storyboard */; };
 		3E16A0501E4AAC4400A5A525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E16A04F1E4AAC4400A5A525 /* Assets.xcassets */; };
 		3E16A0531E4AAC4400A5A525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E16A0511E4AAC4400A5A525 /* LaunchScreen.storyboard */; };
+		3E16A0881E4B624600A5A525 /* UIView+mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E16A0871E4B624600A5A525 /* UIView+mask.m */; };
+		3E16A08A1E4B63F800A5A525 /* QQ20170208-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E16A0891E4B63F800A5A525 /* QQ20170208-0@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		3E16A04F1E4AAC4400A5A525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E16A0521E4AAC4400A5A525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E16A0541E4AAC4400A5A525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E16A0861E4B624600A5A525 /* UIView+mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+mask.h"; path = "../UIView+mask.h"; sourceTree = "<group>"; };
+		3E16A0871E4B624600A5A525 /* UIView+mask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+mask.m"; path = "../UIView+mask.m"; sourceTree = "<group>"; };
+		3E16A0891E4B63F800A5A525 /* QQ20170208-0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20170208-0@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +63,11 @@
 		3E16A0421E4AAC4400A5A525 /* CAGradintLayer */ = {
 			isa = PBXGroup;
 			children = (
+				3E16A0861E4B624600A5A525 /* UIView+mask.h */,
+				3E16A0871E4B624600A5A525 /* UIView+mask.m */,
 				3E16A0461E4AAC4400A5A525 /* AppDelegate.h */,
 				3E16A0471E4AAC4400A5A525 /* AppDelegate.m */,
+				3E16A0891E4B63F800A5A525 /* QQ20170208-0@2x.png */,
 				3E16A0491E4AAC4400A5A525 /* ViewController.h */,
 				3E16A04A1E4AAC4400A5A525 /* ViewController.m */,
 				3E16A04C1E4AAC4400A5A525 /* Main.storyboard */,
@@ -141,6 +149,7 @@
 				3E16A0531E4AAC4400A5A525 /* LaunchScreen.storyboard in Resources */,
 				3E16A0501E4AAC4400A5A525 /* Assets.xcassets in Resources */,
 				3E16A04E1E4AAC4400A5A525 /* Main.storyboard in Resources */,
+				3E16A08A1E4B63F800A5A525 /* QQ20170208-0@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E16A0881E4B624600A5A525 /* UIView+mask.m in Sources */,
 				3E16A04B1E4AAC4400A5A525 /* ViewController.m in Sources */,
 				3E16A0481E4AAC4400A5A525 /* AppDelegate.m in Sources */,
 				3E16A0451E4AAC4400A5A525 /* main.m in Sources */,
@@ -312,6 +322,7 @@
 				3E16A0591E4AAC4400A5A525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
